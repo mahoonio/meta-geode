@@ -149,3 +149,216 @@ Exiting
 Started bitbake server pid 366588
 --- Starting bitbake server pid 376789 at 2023-05-27 07:43:05.071861 ---
 Started bitbake server pid 376789
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/node_modules/.bin:/home/mahoonio/Desktop/yocto/alix2d/node_modules/.bin:/home/mahoonio/Desktop/yocto/node_modules/.bin:/home/mahoonio/Desktop/node_modules/.bin:/home/mahoonio/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/share/code:/home/mahoonio/.local/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'VSCODE_AMD_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1159', 'VSCODE_CODE_CACHE_PATH': '/home/mahoonio/.config/Code/CachedData/8fa188b2b301d36553cbc9ce1b0a146ccb93351f', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'IM_CONFIG_CHECK_ENV': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'XDG_CURRENT_DESKTOP': 'Unity', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-dcf9ba9e-1.73.0-main.sock', 'WAYLAND_DISPLAY': 'wayland-0', 'INVOCATION_ID': '5ad62de409e2480085253d23ac5efbc1', 'MANAGERPID': '959', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'GJS_DEBUG_OUTPUT': 'stderr', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'DISPLAY': ':0', 'VSCODE_PID': '367202', 'SHLVL': '1', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'VSCODE_CWD': '/home/mahoonio', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'JOURNAL_STREAM': '8:21896', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'VSCODE_NLS_CONFIG': '{"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '367202', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake', '-p']]
+Command Completed
+Running command ['getVariable', 'BBINCLUDELOGS']
+Command Completed
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Command Completed
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Command Completed
+Running command ['getSetVariable', 'BB_LOGCONFIG']
+Command Completed
+Running command ['getUIHandlerNum']
+Command Completed
+Running command ['setEventMask', 1, 20, {'BitBake.SigGen.HashEquiv': 19, 'BitBake.RunQueue.HashEquiv': 19}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Command Completed
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Command Completed
+Running command ['setConfig', 'cmd', 'build']
+Command Completed
+Running command ['getVariable', 'BBTARGETS']
+Command Completed
+Running command ['parseFiles']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 377779 at 2023-05-27 07:43:55.837653 ---
+Started bitbake server pid 377779
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2, 1]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/node_modules/.bin:/home/mahoonio/Desktop/yocto/alix2d/node_modules/.bin:/home/mahoonio/Desktop/yocto/node_modules/.bin:/home/mahoonio/Desktop/node_modules/.bin:/home/mahoonio/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/share/code:/home/mahoonio/.local/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'VSCODE_AMD_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1159', 'VSCODE_CODE_CACHE_PATH': '/home/mahoonio/.config/Code/CachedData/8fa188b2b301d36553cbc9ce1b0a146ccb93351f', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'IM_CONFIG_CHECK_ENV': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'XDG_CURRENT_DESKTOP': 'Unity', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-dcf9ba9e-1.73.0-main.sock', 'WAYLAND_DISPLAY': 'wayland-0', 'INVOCATION_ID': '5ad62de409e2480085253d23ac5efbc1', 'MANAGERPID': '959', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'GJS_DEBUG_OUTPUT': 'stderr', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'DISPLAY': ':0', 'VSCODE_PID': '367202', 'SHLVL': '1', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'VSCODE_CWD': '/home/mahoonio', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'JOURNAL_STREAM': '8:21896', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'VSCODE_NLS_CONFIG': '{"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '367202', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'show-layers']]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['getLayerPriorities']
+Command Completed
+Running command ['clientComplete']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 377827 at 2023-05-27 07:43:56.980790 ---
+Started bitbake server pid 377827
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2, 1]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/node_modules/.bin:/home/mahoonio/Desktop/yocto/alix2d/node_modules/.bin:/home/mahoonio/Desktop/yocto/node_modules/.bin:/home/mahoonio/Desktop/node_modules/.bin:/home/mahoonio/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/share/code:/home/mahoonio/.local/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'VSCODE_AMD_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1159', 'VSCODE_CODE_CACHE_PATH': '/home/mahoonio/.config/Code/CachedData/8fa188b2b301d36553cbc9ce1b0a146ccb93351f', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'IM_CONFIG_CHECK_ENV': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'XDG_CURRENT_DESKTOP': 'Unity', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-dcf9ba9e-1.73.0-main.sock', 'WAYLAND_DISPLAY': 'wayland-0', 'INVOCATION_ID': '5ad62de409e2480085253d23ac5efbc1', 'MANAGERPID': '959', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'GJS_DEBUG_OUTPUT': 'stderr', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'DISPLAY': ':0', 'VSCODE_PID': '367202', 'SHLVL': '1', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'VSCODE_CWD': '/home/mahoonio', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'JOURNAL_STREAM': '8:21896', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'VSCODE_NLS_CONFIG': '{"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '367202', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'show-recipes']]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'disableTracking', (), {}]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/node_modules/.bin:/home/mahoonio/Desktop/yocto/alix2d/node_modules/.bin:/home/mahoonio/Desktop/yocto/node_modules/.bin:/home/mahoonio/Desktop/node_modules/.bin:/home/mahoonio/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/share/code:/home/mahoonio/.local/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'VSCODE_AMD_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1159', 'VSCODE_CODE_CACHE_PATH': '/home/mahoonio/.config/Code/CachedData/8fa188b2b301d36553cbc9ce1b0a146ccb93351f', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'IM_CONFIG_CHECK_ENV': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'XDG_CURRENT_DESKTOP': 'Unity', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-dcf9ba9e-1.73.0-main.sock', 'WAYLAND_DISPLAY': 'wayland-0', 'INVOCATION_ID': '5ad62de409e2480085253d23ac5efbc1', 'MANAGERPID': '959', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'GJS_DEBUG_OUTPUT': 'stderr', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'DISPLAY': ':0', 'VSCODE_PID': '367202', 'SHLVL': '1', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'VSCODE_CWD': '/home/mahoonio', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'JOURNAL_STREAM': '8:21896', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'VSCODE_NLS_CONFIG': '{"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '367202', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'show-recipes']]
+Command Completed
+Running command ['getVariable', 'BBINCLUDELOGS']
+Command Completed
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Command Completed
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Command Completed
+Running command ['getSetVariable', 'BB_LOGCONFIG']
+Command Completed
+Running command ['getUIHandlerNum']
+Command Completed
+Running command ['setEventMask', 1, 20, {'BitBake.RunQueue.HashEquiv': 19, 'BitBake.SigGen.HashEquiv': 19}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Command Completed
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Command Completed
+Running command ['setConfig', 'cmd', 'build']
+Command Completed
+Running command ['getVariable', 'BBTARGETS']
+Command Completed
+Running command ['parseFiles']
+Command Completed
+ERROR:  OE-core's config sanity checker detected a potential misconfiguration.
+    Either fix the cause of this error or at your own risk disable the checker (see sanity.conf).
+    Following is the list of potential problems / advisories:
+
+    Fetcher failure for URL: 'https://yoctoproject.org/connectivity.html'. URL https://yoctoproject.org/connectivity.html doesn't work.
+    Please ensure your host's network is configured correctly.
+    If your ISP or network is blocking the above URL,
+    try with another domain name, for example by setting:
+    CONNECTIVITY_CHECK_URIS = "https://www.example.com/"    You could also set BB_NO_NETWORK = "1" to disable network
+    access if all required sources are on local disk.
+
+Running command ['clientComplete']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 378438 at 2023-05-27 07:44:37.904508 ---
+Started bitbake server pid 378438
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/node_modules/.bin:/home/mahoonio/Desktop/yocto/alix2d/node_modules/.bin:/home/mahoonio/Desktop/yocto/node_modules/.bin:/home/mahoonio/Desktop/node_modules/.bin:/home/mahoonio/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/share/code:/home/mahoonio/.local/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'VSCODE_AMD_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1159', 'VSCODE_CODE_CACHE_PATH': '/home/mahoonio/.config/Code/CachedData/8fa188b2b301d36553cbc9ce1b0a146ccb93351f', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'IM_CONFIG_CHECK_ENV': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'XDG_CURRENT_DESKTOP': 'Unity', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-dcf9ba9e-1.73.0-main.sock', 'WAYLAND_DISPLAY': 'wayland-0', 'INVOCATION_ID': '5ad62de409e2480085253d23ac5efbc1', 'MANAGERPID': '959', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'GJS_DEBUG_OUTPUT': 'stderr', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'DISPLAY': ':0', 'VSCODE_PID': '367202', 'SHLVL': '1', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'VSCODE_CWD': '/home/mahoonio', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'JOURNAL_STREAM': '8:21896', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'VSCODE_NLS_CONFIG': '{"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '367202', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake', '-p']]
+Command Completed
+Running command ['getVariable', 'BBINCLUDELOGS']
+Command Completed
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Command Completed
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Command Completed
+Running command ['getSetVariable', 'BB_LOGCONFIG']
+Command Completed
+Running command ['getUIHandlerNum']
+Command Completed
+Running command ['setEventMask', 1, 20, {'BitBake.SigGen.HashEquiv': 19, 'BitBake.RunQueue.HashEquiv': 19}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Command Completed
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Command Completed
+Running command ['setConfig', 'cmd', 'build']
+Command Completed
+Running command ['getVariable', 'BBTARGETS']
+Command Completed
+Running command ['parseFiles']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 379019 at 2023-05-27 07:45:18.374461 ---
+Started bitbake server pid 379019
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/node_modules/.bin:/home/mahoonio/Desktop/yocto/alix2d/node_modules/.bin:/home/mahoonio/Desktop/yocto/node_modules/.bin:/home/mahoonio/Desktop/node_modules/.bin:/home/mahoonio/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/share/code:/home/mahoonio/.local/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'VSCODE_AMD_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1159', 'VSCODE_CODE_CACHE_PATH': '/home/mahoonio/.config/Code/CachedData/8fa188b2b301d36553cbc9ce1b0a146ccb93351f', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'IM_CONFIG_CHECK_ENV': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'XDG_CURRENT_DESKTOP': 'Unity', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-dcf9ba9e-1.73.0-main.sock', 'WAYLAND_DISPLAY': 'wayland-0', 'INVOCATION_ID': '5ad62de409e2480085253d23ac5efbc1', 'MANAGERPID': '959', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'GJS_DEBUG_OUTPUT': 'stderr', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'DISPLAY': ':0', 'VSCODE_PID': '367202', 'SHLVL': '1', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'VSCODE_CWD': '/home/mahoonio', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'JOURNAL_STREAM': '8:21896', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/vscode-bitbake-build', 'VSCODE_NLS_CONFIG': '{"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '367202', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake', '-p']]
+Command Completed
+Running command ['getVariable', 'BBINCLUDELOGS']
+Command Completed
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Command Completed
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Command Completed
+Running command ['getSetVariable', 'BB_LOGCONFIG']
+Command Completed
+Running command ['getUIHandlerNum']
+Command Completed
+Running command ['setEventMask', 1, 20, {'BitBake.RunQueue.HashEquiv': 19, 'BitBake.SigGen.HashEquiv': 19}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Command Completed
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Command Completed
+Running command ['setConfig', 'cmd', 'build']
+Command Completed
+Running command ['getVariable', 'BBTARGETS']
+Command Completed
+Running command ['parseFiles']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
