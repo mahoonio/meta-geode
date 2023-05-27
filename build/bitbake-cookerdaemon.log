@@ -1,0 +1,358 @@
+--- Starting bitbake server pid 364283 at 2023-05-27 07:29:57.088479 ---
+Started bitbake server pid 364283
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2, 1]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'TERM': 'xterm-256color', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'TERM_PROGRAM_VERSION': '1.73.0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1140', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'Unity', 'VTE_VERSION': '6800', 'WAYLAND_DISPLAY': 'wayland-0', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18b8321a_b835_4f8c_887a_f348a1deb3bf', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-05d953f62b.sock', 'GNOME_TERMINAL_SERVICE': ':1.1421', 'DISPLAY': ':0', 'SHLVL': '2', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', 'TERM_PROGRAM': 'vscode', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'create-layer', '../meta-geode']]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('LAYERSERIES_COMPAT_core',), {}]
+Command Completed
+Running command ['clientComplete']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 364722 at 2023-05-27 07:30:25.512533 ---
+Started bitbake server pid 364722
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2, 1]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'TERM': 'xterm-256color', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'TERM_PROGRAM_VERSION': '1.73.0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1140', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'Unity', 'VTE_VERSION': '6800', 'WAYLAND_DISPLAY': 'wayland-0', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18b8321a_b835_4f8c_887a_f348a1deb3bf', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-05d953f62b.sock', 'GNOME_TERMINAL_SERVICE': ':1.1421', 'DISPLAY': ':0', 'SHLVL': '2', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', 'TERM_PROGRAM': 'vscode', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'add-layer', 'meta-geode']]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['clientComplete']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 364985 at 2023-05-27 07:30:42.810574 ---
+Started bitbake server pid 364985
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2, 1]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'TERM': 'xterm-256color', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'TERM_PROGRAM_VERSION': '1.73.0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1140', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'Unity', 'VTE_VERSION': '6800', 'WAYLAND_DISPLAY': 'wayland-0', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18b8321a_b835_4f8c_887a_f348a1deb3bf', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-05d953f62b.sock', 'GNOME_TERMINAL_SERVICE': ':1.1421', 'DISPLAY': ':0', 'SHLVL': '2', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', 'TERM_PROGRAM': 'vscode', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'add-layer', '../meta-geode']]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['clientComplete']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 366227 at 2023-05-27 07:32:01.278988 ---
+Started bitbake server pid 366227
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2, 1]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'TERM': 'xterm-256color', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'TERM_PROGRAM_VERSION': '1.73.0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1140', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'Unity', 'VTE_VERSION': '6800', 'WAYLAND_DISPLAY': 'wayland-0', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18b8321a_b835_4f8c_887a_f348a1deb3bf', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-05d953f62b.sock', 'GNOME_TERMINAL_SERVICE': ':1.1421', 'DISPLAY': ':0', 'SHLVL': '2', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', 'TERM_PROGRAM': 'vscode', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'add-layer', '../meta-openembedded/meta-oe']]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['clientComplete']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 366289 at 2023-05-27 07:32:02.975755 ---
+Started bitbake server pid 366289
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2, 1]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'TERM': 'xterm-256color', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'TERM_PROGRAM_VERSION': '1.73.0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1140', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'Unity', 'VTE_VERSION': '6800', 'WAYLAND_DISPLAY': 'wayland-0', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18b8321a_b835_4f8c_887a_f348a1deb3bf', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-05d953f62b.sock', 'GNOME_TERMINAL_SERVICE': ':1.1421', 'DISPLAY': ':0', 'SHLVL': '2', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', 'TERM_PROGRAM': 'vscode', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'add-layer', '../meta-openembedded/meta-python']]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['clientComplete']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 366314 at 2023-05-27 07:32:04.424249 ---
+Started bitbake server pid 366314
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2, 1]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'TERM': 'xterm-256color', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'TERM_PROGRAM_VERSION': '1.73.0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1140', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'Unity', 'VTE_VERSION': '6800', 'WAYLAND_DISPLAY': 'wayland-0', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18b8321a_b835_4f8c_887a_f348a1deb3bf', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-05d953f62b.sock', 'GNOME_TERMINAL_SERVICE': ':1.1421', 'DISPLAY': ':0', 'SHLVL': '2', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', 'TERM_PROGRAM': 'vscode', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'add-layer', '../meta-openembedded/meta-networking']]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['clientComplete']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 366357 at 2023-05-27 07:32:06.133682 ---
+Started bitbake server pid 366357
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2, 1]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'TERM': 'xterm-256color', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'TERM_PROGRAM_VERSION': '1.73.0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1140', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'Unity', 'VTE_VERSION': '6800', 'WAYLAND_DISPLAY': 'wayland-0', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18b8321a_b835_4f8c_887a_f348a1deb3bf', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-05d953f62b.sock', 'GNOME_TERMINAL_SERVICE': ':1.1421', 'DISPLAY': ':0', 'SHLVL': '2', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', 'TERM_PROGRAM': 'vscode', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'add-layer', '../meta-dpdk']]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['clientComplete']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 366397 at 2023-05-27 07:32:07.656898 ---
+Started bitbake server pid 366397
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2, 1]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'TERM': 'xterm-256color', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'TERM_PROGRAM_VERSION': '1.73.0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1140', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'Unity', 'VTE_VERSION': '6800', 'WAYLAND_DISPLAY': 'wayland-0', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18b8321a_b835_4f8c_887a_f348a1deb3bf', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-05d953f62b.sock', 'GNOME_TERMINAL_SERVICE': ':1.1421', 'DISPLAY': ':0', 'SHLVL': '2', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', 'TERM_PROGRAM': 'vscode', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'add-layer', '../meta-amd/meta-amd-distro']]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['clientComplete']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 366445 at 2023-05-27 07:32:09.155189 ---
+Started bitbake server pid 366445
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2, 1]]
+Command Completed
+Running command ['updateConfig', {'abort': True, 'force': False, 'invalidate_stamp': None, 'debug': 0, 'dry_run': False, 'dump_signatures': [], 'debug_domains': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'build_verbose_shell': False, 'build_verbose_stdout': False}, {'SHELL': '/bin/bash', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LOGNAME': 'mahoonio', 'HOME': '/home/mahoonio', 'BBPATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'TERM': 'xterm-256color', 'USER': 'mahoonio', 'PATH': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/scripts:/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin:/home/mahoonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/myUbuntu:@/tmp/.ICE-unix/1140,unix/myUbuntu:/tmp/.ICE-unix/1140', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'TERM_PROGRAM_VERSION': '1.73.0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_ADDRESS': 'az_IR', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'LC_NAME': 'az_IR', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'LC_MONETARY': 'az_IR', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '1140', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WXFR51', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'USERNAME': 'mahoonio', 'IM_CONFIG_PHASE': '1', 'LC_PAPER': 'az_IR', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'Unity', 'VTE_VERSION': '6800', 'WAYLAND_DISPLAY': 'wayland-0', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18b8321a_b835_4f8c_887a_f348a1deb3bf', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'LC_IDENTIFICATION': 'az_IR', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-05d953f62b.sock', 'GNOME_TERMINAL_SERVICE': ':1.1421', 'DISPLAY': ':0', 'SHLVL': '2', 'LC_TELEPHONE': 'az_IR', 'QT_IM_MODULE': 'ibus', 'LC_MEASUREMENT': 'az_IR', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_TIME': 'az_IR', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=967c27441b5ce4470ce3c78364712e33', 'BUILDDIR': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/build', 'LC_NUMERIC': 'az_IR', 'OLDPWD': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell', 'TERM_PROGRAM': 'vscode', '_': '/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers'}, ['/home/mahoonio/Desktop/yocto/alix2d/poky-amd-dunfell/bitbake/bin/bitbake-layers', 'add-layer', '../meta-amd/meta-amd-bsp']]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+Command Completed
+Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+Command Completed
+Running command ['parseConfiguration']
+Command Completed
+Running command ['clientComplete']
+Command Completed
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
