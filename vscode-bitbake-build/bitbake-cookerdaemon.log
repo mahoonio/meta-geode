@@ -147,3 +147,5 @@ No timeout, exiting.
 Exiting
 --- Starting bitbake server pid 366588 at 2023-05-27 07:32:15.319927 ---
 Started bitbake server pid 366588
+--- Starting bitbake server pid 376789 at 2023-05-27 07:43:05.071861 ---
+Started bitbake server pid 376789
